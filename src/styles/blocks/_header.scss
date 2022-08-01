@@ -1,0 +1,12 @@
+.header {
+  padding: 25px 0;
+  background-color: $color-dark;
+}
+
+.header-inner {
+  @include inner;
+}
+
+.logo {
+  color: $color-light;
+}
