@@ -5,6 +5,7 @@
 }
 
 @mixin section-title {
+  font-family: $font-title;
   font-weight: 300;
   font-size: 58px;
   line-height: 68px;

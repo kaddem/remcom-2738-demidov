@@ -1,14 +1,4 @@
 .menu {
-  background-color: green;
-
-  &:hover {
-    background-color: red;
-  }
-
-  &.some-class {
-    background-color: blue;
-  }
-
   ul {
     display: flex;
     list-style: none;
