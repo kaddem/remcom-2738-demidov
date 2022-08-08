@@ -14,12 +14,27 @@
 .services-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
   margin-left: -$gap-half;
   margin-right: -$gap-half;
 }
 
 .services-item {
   flex-basis: 50%;
+  margin-top: 50px;
   padding: 0 $gap-half;
 }
 
+.services-heading {
+  margin-bottom: 30px;
+  font-family: $font-title;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.services-text {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 38px;
+}

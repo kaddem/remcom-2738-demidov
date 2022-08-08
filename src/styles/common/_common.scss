@@ -5,5 +5,12 @@
 }
 
 body {
+  padding-top: 99px;
   font-family: $font;
+  color: $color-dark;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
