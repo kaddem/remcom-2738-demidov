@@ -8,6 +8,21 @@
   background-color: $color-orange;
   border-radius: 5px;
   border: none;
+
+  .promo-info & {
+    @media (max-width: $mobile-max) {
+      display: none;
+    }
+  }
+
+  .promo-media & {
+    display: none;
+
+    @media (max-width: $mobile-max) {
+      display: inline-block;
+      margin-top: 50px;
+    }
+  }
 }
 
 .btn-form {

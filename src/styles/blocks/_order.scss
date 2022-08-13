@@ -1,5 +1,9 @@
 .order {
   padding: 100px 0 90px;
+
+  @media (max-width: $tablet-max) {
+    padding: 70px 0;
+  }
 }
 
 .order-inner {
