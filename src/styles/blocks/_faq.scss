@@ -1,0 +1,23 @@
+.faq {
+  padding: 140px 0 130px;
+  background-color: rgba($color-light, .2);
+}
+
+.faq-inner {
+  @include inner;
+}
+
+.faq-title {
+  @include section-title;
+}
+
+.faq-accordion {
+  margin-top: 40px;
+  border: 1px solid #000;
+}
+
+.faq-btn {
+  width: 100%;
+  padding: 30px;
+  border: none;
+}

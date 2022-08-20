@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RemCom - ремонт техники и мебели</title>
+  <title>RemCom - контакты</title>
   <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -22,7 +22,7 @@
               <a href="faq.html">FAQ</a>
             </li>
             <li>
-              <a href="contacts.html">Контакты</a>
+              <a href="contacts.html" class="active">Контакты</a>
             </li>
             <li>
               <a href="works.html">Наши работы</a>
@@ -38,55 +38,30 @@
   </header>
 
   <main>
-    <section class="promo">
-      <div class="promo-inner">
-        <div class="promo-wrap">
-          <div class="promo-info">
-            <h1 class="promo-title">
-              <span>RemCom</span>
-              Ремонт мелкой и крупной бытовой техники в Санкт-Петербурге
-            </h1>
-            <a href="#" class="btn">Оставить заявку</a>
-          </div>
-          <div class="promo-media">
-            <div class="promo-media-wrap">
-              <img src="images/promo-photo.jpg" alt="" class="promo-img">
-              <p class="promo-img-desc">Двое делают вид, что работают. У третьего вид лучше</p>
-            </div>
-            <a href="#" class="btn">Оставить заявку</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="contacts">
+      <div class="contacts-inner">
+        <h1 class="contacts-title">Сервисные центры</h1>
 
-    <section class="services">
-      <div class="services-inner">
-        <h2 class="services-title">Что мы ремонтируем</h2>
-        <div class="services-list">
-          <div class="services-item">
-            <i class="services-icon" style="background-image: url(images/icon-micro.svg);"></i>
-            <h3 class="services-heading">Кухонную технику</h3>
-            <p class="services-text">Холодильники, микроволновки,
-              Духовые шкафы, кухонные комбайны и т.д.</p>
-          </div>
-          <div class="services-item">
-            <i class="services-icon" style="background-image: url(images/icon-phone.svg);"></i>
-            <h3 class="services-heading">Смартфоны</h3>
-            <p class="services-text">Смартфоны и планшеты Apple, Samsung,
-              Huawey, Honor, Xiaomi, Oppo и многие другие модели</p>
-          </div>
-          <div class="services-item">
-            <i class="services-icon" style="background-image: url(images/icon-speaker.svg);"></i>
-            <h3 class="services-heading">Теле и аудио</h3>
-            <p class="services-text">Современные и не очень телефизоры, акустические системы, в том числе HiFi класса,
-              ресиверы и проигрыватели грампластинок</p>
-          </div>
-          <div class="services-item">
-            <i class="services-icon" style="background-image: url(images/icon-wood.svg);"></i>
-            <h3 class="services-heading">Деревянную мебель</h3>
-            <p class="services-text">Мебель из массива дерева - стулья, табуреты, шкафы, тумбы, секретеры и кабинеты.
-            </p>
-          </div>
+        <ul class="tabs">
+          <li class="tabs-item">
+            <a href="#" class="tabs-link active js-tabs-link">СПб</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-tabs-link">Мск</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-tabs-link">Екб</a>
+          </li>
+        </ul>
+
+        <div class="contacts-tab active js-contacts-tab">
+          Санкт-Петербурхъ
+        </div>
+        <div class="contacts-tab js-contacts-tab">
+          Мск
+        </div>
+        <div class="contacts-tab js-contacts-tab">
+          Екб
         </div>
       </div>
     </section>

@@ -1,4 +1,8 @@
 .menu {
+  @media (min-width: $desktop) {
+    display: block !important;
+  }
+
   @media (max-width: $tablet-max) {
     position: absolute;
     top: 100%;
@@ -41,10 +45,11 @@
     line-height: 33px;
     color: $color-light;
     text-decoration: none;
-  }
 
-  a:hover {
-    color: $color-orange;
+    &:hover,
+    &.active {
+      color: $color-orange;
+    }
   }
 }
 

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RemCom - ремонт техники и мебели</title>
+  <title>RemCom - наши работы</title>
   <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -25,7 +25,7 @@
               <a href="contacts.html">Контакты</a>
             </li>
             <li>
-              <a href="works.html">Наши работы</a>
+              <a href="works.html" class="active">Наши работы</a>
             </li>
           </ul>
 
@@ -38,56 +38,34 @@
   </header>
 
   <main>
-    <section class="promo">
-      <div class="promo-inner">
-        <div class="promo-wrap">
-          <div class="promo-info">
-            <h1 class="promo-title">
-              <span>RemCom</span>
-              Ремонт мелкой и крупной бытовой техники в Санкт-Петербурге
-            </h1>
-            <a href="#" class="btn">Оставить заявку</a>
-          </div>
-          <div class="promo-media">
-            <div class="promo-media-wrap">
-              <img src="images/promo-photo.jpg" alt="" class="promo-img">
-              <p class="promo-img-desc">Двое делают вид, что работают. У третьего вид лучше</p>
-            </div>
-            <a href="#" class="btn">Оставить заявку</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="works">
+      <div class="works-inner">
+        <h1 class="works-title">Наши работы</h1>
 
-    <section class="services">
-      <div class="services-inner">
-        <h2 class="services-title">Что мы ремонтируем</h2>
-        <div class="services-list">
-          <div class="services-item">
-            <i class="services-icon" style="background-image: url(images/icon-micro.svg);"></i>
-            <h3 class="services-heading">Кухонную технику</h3>
-            <p class="services-text">Холодильники, микроволновки,
-              Духовые шкафы, кухонные комбайны и т.д.</p>
-          </div>
-          <div class="services-item">
-            <i class="services-icon" style="background-image: url(images/icon-phone.svg);"></i>
-            <h3 class="services-heading">Смартфоны</h3>
-            <p class="services-text">Смартфоны и планшеты Apple, Samsung,
-              Huawey, Honor, Xiaomi, Oppo и многие другие модели</p>
-          </div>
-          <div class="services-item">
-            <i class="services-icon" style="background-image: url(images/icon-speaker.svg);"></i>
-            <h3 class="services-heading">Теле и аудио</h3>
-            <p class="services-text">Современные и не очень телефизоры, акустические системы, в том числе HiFi класса,
-              ресиверы и проигрыватели грампластинок</p>
-          </div>
-          <div class="services-item">
-            <i class="services-icon" style="background-image: url(images/icon-wood.svg);"></i>
-            <h3 class="services-heading">Деревянную мебель</h3>
-            <p class="services-text">Мебель из массива дерева - стулья, табуреты, шкафы, тумбы, секретеры и кабинеты.
-            </p>
-          </div>
-        </div>
+        <ul class="tabs">
+          <li class="tabs-item">
+            <a href="#" class="tabs-link active js-filter-link" data-filter="all">Все</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-filter-link" data-filter="electro">Электроника</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-filter-link" data-filter="wood">Мебель</a>
+          </li>
+        </ul>
+
+        <ul class="works-list">
+          <li class="works-item js-works-item" data-type="electro">Телефон</li>
+          <li class="works-item js-works-item" data-type="wood">Комод</li>
+          <li class="works-item js-works-item" data-type="electro">Электро-веник</li>
+          <li class="works-item js-works-item" data-type="wood">Кресло качалка</li>
+          <li class="works-item js-works-item" data-type="electro">Телефизор</li>
+          <li class="works-item js-works-item" data-type="electro">Планшет</li>
+          <li class="works-item js-works-item" data-type="electro">Принтер</li>
+          <li class="works-item js-works-item" data-type="wood">Диван</li>
+          <li class="works-item js-works-item" data-type="wood">Шкаф</li>
+          <li class="works-item js-works-item" data-type="electro">Холодильник</li>
+        </ul>
       </div>
     </section>
 
