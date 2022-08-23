@@ -13,11 +13,37 @@
 
 .faq-accordion {
   margin-top: 40px;
-  border: 1px solid #000;
+  border: 1px solid $color-orange;
+  background-color: #fff;
+  border-radius: 4px;
 }
 
 .faq-btn {
   width: 100%;
   padding: 30px;
+  font-family: $font-title;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: left;
   border: none;
+  background-color: rgba(0, 0, 0, 0);
+
+  &.open {
+    .faq-btn-icon {
+      background-color: $color-orange;
+    }
+  }
+}
+
+.faq-btn-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+}
+
+.faq-answear {
+  display: none;
+  padding: 0 30px 30px;
 }

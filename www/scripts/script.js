@@ -50,6 +50,28 @@ $(document).ready(function() {
         $(this).hide();
       }
     });
-
   });
+
+  // FAQ
+  let prevAccordionBtn;
+
+  $('.js-faq-btn').on('click', function() {
+    if (prevAccordionBtn === this) {
+      $(this).next().slideToggle();
+      $(this).toggleClass('open');
+      return;
+    }
+
+    $(prevAccordionBtn).next().slideUp();
+    $(prevAccordionBtn).removeClass('open');
+    $(this).next().slideDown();
+    $(this).addClass('open');
+    prevAccordionBtn = this;
+  });
+
+  // Slick slider
+  $('.js-slider').slick({
+    dots: true
+  });
+
 });

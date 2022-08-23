@@ -4,6 +4,9 @@
 @import "common/_fonts";
 @import "common/_common";
 
+// plugins
+@import "plugins/slick";
+
 // blocks
 @import "blocks/_btn";
 @import "blocks/_header";
@@ -17,5 +20,11 @@
 @import "blocks/_tabs";
 @import "blocks/_works";
 @import "blocks/_faq";
+@import "blocks/_carousel";
+@import "blocks/_slider";
+@import "blocks/_reviews";
+
+
+
 
 

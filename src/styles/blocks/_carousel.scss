@@ -1,0 +1,12 @@
+.carousel {
+  padding: 140px 0 130px;
+  background-color: $color-light;
+}
+
+.carousel-inner {
+  @include inner;
+}
+
+.carousel-title {
+  @include section-title;
+}
